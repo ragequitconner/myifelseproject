@@ -1,8 +1,5 @@
-
-
-echo -n 10+10:
-read VAR
-if [$VAR -gt 20]
-then echo "correct your not dumb"
-else echo "incorrect you are dumb"
+echo -n "enter a number:"
+read $VAR
+if [$VAR -gt 10]
+then echo "your mom"
 fi
